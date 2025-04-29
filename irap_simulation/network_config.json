@@ -1,0 +1,22 @@
+{
+    "Router1": {
+      "port": 5000,
+      "neighbors": {
+        "Router2": 5001
+      }
+    },
+    "Router2": {
+      "port": 5001,
+      "neighbors": {
+        "Router1": 5000,
+        "Router3": 5002
+      }
+    },
+    "Router3": {
+      "port": 5002,
+      "neighbors": {
+        "Router2": 5001
+      }
+    }
+  }
+  
