@@ -19,7 +19,7 @@ msg.add_alternative("""
 """, subtype='html')
 
 # Add an attachment
-with open("example.txt", "rb") as f:
+with open("santanu.png", "rb") as f:
     file_data = f.read()
     file_name = f.name
 
